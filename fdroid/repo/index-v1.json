@@ -1,0 +1,97 @@
+{
+  "repo": {
+    "timestamp": 1585737196000,
+    "version": 19,
+    "name": "Test2",
+    "icon": "default-repo-icon.png",
+    "address": "https://raw.githubusercontent.com/alijcam/repo/master/fdroid/repo",
+    "description": "Test2",
+    "mirrors": [
+      "https://raw.githubusercontent.com/alijcam/repo/master/fdroid/repo/repo",
+      "https://raw.githubusercontent.com/alijcam/repo/master/fdroid/repo/repo"
+    ]
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "categories": [
+        "Time"
+      ],
+      "suggestedVersionCode": "9",
+      "license": "Unknown",
+      "name": "Tea Timer",
+      "added": 1585657640000,
+      "icon": "goo.TeaTimer.9.png",
+      "packageName": "goo.TeaTimer",
+      "lastUpdated": 1585657645000,
+      "localized": {
+        "de": {
+          "summary": "Einfache Teeuhr"
+        },
+        "en": {
+          "description": "<p>A straight-forward tea timer</p>"
+        },
+        "en-US": {
+          "summary": "Simple Tea Timer"
+        },
+        "es": {
+          "summary": "Temporizador simple para (preparar) t\u00e9"
+        },
+        "pl": {
+          "summary": "Prosty czasomierz do parzenia herbaty"
+        },
+        "pt": {
+          "summary": "Temporizador simples de ch\u00e1"
+        },
+        "pt-BR": {
+          "summary": "Temporizador simples de ch\u00e1"
+        },
+        "pt-PT": {
+          "summary": "Temporizador simples de ch\u00e1"
+        },
+        "zh-CN": {
+          "summary": "\u7b80\u5355\u7684\u8336\u8ba1\u65f6\u5668"
+        }
+      }
+    }
+  ],
+  "packages": {
+    "goo.TeaTimer": [
+      {
+        "added": 1585657645000,
+        "apkName": "goo.TeaTimer_9.apk",
+        "hash": "0dea3e99ee1941e6a86fb4678b8c067f13fad4a6ef9bdb227b6895f58a7f8f5c",
+        "hashType": "sha256",
+        "minSdkVersion": "3",
+        "packageName": "goo.TeaTimer",
+        "sig": "0d6759cb6c814bda296ff64de5cd9469",
+        "signer": "edd655a6d50eee89b34c6e0fb57ff29c8f95b7b0cb02f33e9d45b52699a0f2f1",
+        "size": 225022,
+        "targetSdkVersion": "3",
+        "uses-permission": [
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 9,
+        "versionName": "1.6"
+      }
+    ]
+  }
+}
